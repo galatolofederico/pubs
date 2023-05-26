@@ -38,3 +38,4 @@ for pub in publications/*; do
     fi
     echo "$title,$date,$pub" >> $CSV_LIST
 done
+echo "" >> $CSV_LIST
