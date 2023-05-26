@@ -18,6 +18,7 @@ done
 
 
 while IFS=, read -r title date file; do
+    echo "Updating $file"
     if [ "$title" = "title" ]; then
         continue
     fi
