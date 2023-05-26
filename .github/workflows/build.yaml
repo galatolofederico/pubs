@@ -29,13 +29,6 @@ jobs:
         run: ./build-csv.sh
       - name: Build README.md
         run: python build-readme.py
-      - name: Commit README.md
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions - update submodules"
-          git add README.md
-          git commit -m "Update README.md"
-          git push
       - name: Create output directory
         run: mkdir -p out
       - name: Converts Markdown to HTML
@@ -50,6 +43,14 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
+      - name: Commit README.md
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
+          git add README.md
+          git commit --allow-empty -m "Update README.md"
+          git push
+        
 
   deploy:
     environment:
