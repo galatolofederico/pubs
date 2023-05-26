@@ -20,6 +20,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+          with:
+            packages: libimage-exiftool-perl
+            version: 1.0
       - name: Build CSV
         run: ./build-csv.sh
       - name: Build README.md
