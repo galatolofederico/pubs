@@ -14,6 +14,8 @@ pubs = []
 with open(args.publications, newline="\n") as csvfile:
     rows = csv.reader(csvfile, delimiter=",")
     for row in rows:
+        if len(row) != 3:
+            continue
         title, date, pdf = row
         if title == "title":
             continue
