@@ -27,7 +27,7 @@ rm -f $CSV_LIST
 echo "title,date,file" >> $CSV_LIST
 for pub in publications/*; do
     echo "Processing $pub"
-    title=$(exiftool -Title "$pub" | cut -d: -f2 | sed 's/^\s*\|\s*$//g')
+    title=$(exiftool -Title "$pub" | cut -d: -f2- | sed 's/^\s*\|\s*$//g')
     date=$(exiftool -filemodifydate "$pub" | cut -d: -f2- | sed 's/^\s*\|\s*$//g')
     if [ $STRICT -eq 1 ]; then
         if [ -z "$title" ] || [ -z "$date" ]; then
@@ -38,4 +38,3 @@ for pub in publications/*; do
     fi
     echo "$title,$date,$pub" >> $CSV_LIST
 done
-echo "" >> $CSV_LIST
