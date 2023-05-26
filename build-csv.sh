@@ -29,7 +29,7 @@ for pub in publications/*; do
     echo "Processing $pub"
     exiftool "$pub"
     title=$(exiftool -Title "$pub" | cut -d: -f2- | sed 's/^\s*\|\s*$//g')
-    date=$(exiftool -filemodifydate "$pub" | cut -d: -f2- | sed 's/^\s*\|\s*$//g')
+    date=$(exiftool -modifydate "$pub" | cut -d: -f2- | sed 's/^\s*\|\s*$//g')
     if [ $STRICT -eq 1 ]; then
         if [ -z "$title" ] || [ -z "$date" ]; then
             echo "Error: $pub is missing title or date"

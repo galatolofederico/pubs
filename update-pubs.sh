@@ -27,5 +27,5 @@ while IFS=, read -r title date file; do
         exiftool "$pub"
         exit 1
     fi
-    exiftool -overwrite_original -Title="$title" -filemodifydate="$date" "$file"
+    exiftool -overwrite_original -Title="$title" -modifydate="$date" "$file"
 done < $CSV_LIST
