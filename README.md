@@ -1,4 +1,6 @@
 # Publications
+## 2023
+- [Using deep learning and radar backscatter for mapping river water surface](https://pubs.galatolo.me/galatoloradarbackscatter.pdf)
 ## 2022
 - [TeTIm-Eval: a novel curated evaluation data set for comparing text-to-image models](https://pubs.galatolo.me/galatolotetimeval.pdf)
 - [Deep learning of structural changes in historical buildings](https://pubs.galatolo.me/galatolopisatower.pdf)
