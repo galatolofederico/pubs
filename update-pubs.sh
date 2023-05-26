@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function show_help(){
     echo "Usage: $0 [-f <csv file>] [-s]"
