@@ -1,10 +1,10 @@
 # Publications
 ## 2023
-- [Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks](https://pubs.galatolo.me/simionato_platelets.pdf)
-- [Convolutional Neural Networks for Structural Damage Localization on Digital Twins](https://pubs.galatolo.me/parola_damage.pdf)
+- [Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks](https://pubs.galatolo.me/simionatoplatelets.pdf)
+- [Convolutional Neural Networks for Structural Damage Localization on Digital Twins](https://pubs.galatolo.me/paroladamage.pdf)
 - [Using deep learning and radar backscatter for mapping river water surface](https://pubs.galatolo.me/galatoloradarbackscatter.pdf)
-- [Using Deep Learning with Attention to Detect Data Exfiltration by POS Malware](https://pubs.galatolo.me/martino_pos.pdf)
-- [Application of Deep Learning Model in the Sonographic Diagnosis of Uterine Adenomyosis](https://pubs.galatolo.me/raimondo_adenomyosis.pdf)
+- [Using Deep Learning with Attention to Detect Data Exfiltration by POS Malware](https://pubs.galatolo.me/martinopos.pdf)
+- [Application of Deep Learning Model in the Sonographic Diagnosis of Uterine Adenomyosis](https://pubs.galatolo.me/raimondoadenomyosis.pdf)
 ## 2022
 - [TeTIm-Eval: a novel curated evaluation data set for comparing text-to-image models](https://pubs.galatolo.me/galatolotetimeval.pdf)
 - [Deep learning of structural changes in historical buildings](https://pubs.galatolo.me/galatolopisatower.pdf)
