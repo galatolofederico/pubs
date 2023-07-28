@@ -18,14 +18,25 @@ done
 
 
 while IFS=, read -r title date file; do
-    echo "Updating $file"
     if [ "$title" = "title" ]; then
         continue
     fi
+    echo "Checking $file"
+    
     if [ -z "$title" ] || [ -z "$date" ]; then
         echo "Error: $pub is missing title or date"
         exiftool "$pub"
         exit 1
     fi
-    exiftool -overwrite_original -Title="$title" -modifydate="$date" "$file"
+    pdf_title=$(exiftool -Title "$file" | cut -d ':' -f 2- | sed 's/^[[:space:]]*//')
+    pdf_date=$(exiftool -modifydate "$file" | cut -d ':' -f 2- | sed 's/^[[:space:]]*//')
+    
+    if [ "$pdf_title" != "$title" ] || [ "$pdf_date" != "$date" ]; then
+        echo "$file does not match CSV"
+        echo "CSV: $title, $date"
+        echo "PDF: $pdf_title, $pdf_date"
+        exiftool -overwrite_original -Title="$title" -modifydate="$date" "$file"
+        echo "Updated $file"
+    fi
+
 done < $CSV_LIST
