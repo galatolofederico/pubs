@@ -8,7 +8,7 @@
 ## 2022
 - [TeTIm-Eval: a novel curated evaluation data set for comparing text-to-image models](https://pubs.galatolo.me/galatolotetimeval.pdf)
 - [Deep learning of structural changes in historical buildings](https://pubs.galatolo.me/galatolopisatower.pdf)
-- [Dense Information Retrieval on a Latin Digital Library via LaBSE and LatinBERT Embeddings](https://pubs.galatolo.me/galatolo_latin.pdf)
+- [Dense Information Retrieval on a Latin Digital Library via LaBSE and LatinBERT Embeddings](https://pubs.galatolo.me/galatololatin.pdf)
 - [Structural Damage Localization via Deep Learning and IoT enabled Digital Twin](https://pubs.galatolo.me/galatolodamagelocalization.pdf)
 - [Using Deep Learning-based Object Detection to extract structure information from scanned documents](https://pubs.galatolo.me/galatoloscanneddetection.pdf)
 - [Enhancing land subsidence awareness via InSAR data and Deep Transformers](https://pubs.galatolo.me/galatoloinsartransformer.pdf)
