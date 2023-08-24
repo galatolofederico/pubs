@@ -1,5 +1,6 @@
 # Publications
 ## 2023
+- [Blockchain-based Shared Additive Manufacturing](https://pubs.galatolo.me/galatoloblockchain.pdf)
 - [Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks](https://pubs.galatolo.me/simionatoplatelets.pdf)
 - [Convolutional Neural Networks for Structural Damage Localization on Digital Twins](https://pubs.galatolo.me/paroladamage.pdf)
 - [Using deep learning and radar backscatter for mapping river water surface](https://pubs.galatolo.me/galatoloradarbackscatter.pdf)
