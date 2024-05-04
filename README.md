@@ -1,4 +1,8 @@
 # Publications
+## 2024
+- [Cerbero-7B: A Leap Forward in Language-Specific LLMs Through Enhanced Chat Corpus Generation and Evaluation](https://pubs.galatolo.me/galatolocerbero.pdf)
+- [Image-based screening of oral cancer via deep ensemble architecture](https://pubs.galatolo.me/galatolooral.pdf)
+- [Detection and Classification of Hysteroscopic Images Using Deep Learning](https://pubs.galatolo.me/galatolohystero.pdf)
 ## 2023
 - [Blockchain-based Shared Additive Manufacturing](https://pubs.galatolo.me/galatoloblockchain.pdf)
 - [Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks](https://pubs.galatolo.me/simionatoplatelets.pdf)
