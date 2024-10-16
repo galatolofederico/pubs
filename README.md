@@ -1,5 +1,6 @@
 # Publications
 ## 2024
+- [Optimizing sparse topologies via competitive joint unstructured neural networks](https://pubs.galatolo.me/galatolocjunn.pdf)
 - [Towards explainable oral cancer recognition: Screening on imperfect images via Informed Deep Learning and Case-Based Reasoning](https://pubs.galatolo.me/parolaoral.pdf)
 - [Cerbero-7B: A Leap Forward in Language-Specific LLMs Through Enhanced Chat Corpus Generation and Evaluation](https://pubs.galatolo.me/galatolocerbero.pdf)
 - [Image-based screening of oral cancer via deep ensemble architecture](https://pubs.galatolo.me/galatolooral.pdf)
@@ -22,7 +23,6 @@
 ## 2021
 - [Zero-shot mathematical problem solving via Generative Pre-trained Transformers](https://pubs.galatolo.me/galatolomathcodex.pdf)
 - [A machine learning approach for groundwater modeling](https://pubs.galatolo.me/galatologroundwaterml.pdf)
-- [Optimizing sparse topologies via Competitive Joint Unstructured Neural Networks](https://pubs.galatolo.me/galatolocjunn.pdf)
 - [Noise Boosted Neural Receptive Fields](https://pubs.galatolo.me/galatolonbrf.pdf)
 - [Multi-objective optimization of water distribution networks via NSGA-II and Pseudo-Weights](https://pubs.galatolo.me/galatolowdn.pdf)
 - [Generating images from caption and vice versa via CLIP-Guided Generative Latent Space Search](https://pubs.galatolo.me/galatologlass.pdf)
