@@ -1,7 +1,9 @@
 # Publications
 ## 2024
+- [Towards explainable oral cancer recognition: Screening on imperfect images via Informed Deep Learning and Case-Based Reasoning](https://pubs.galatolo.me/parolaoral.pdf)
 - [Cerbero-7B: A Leap Forward in Language-Specific LLMs Through Enhanced Chat Corpus Generation and Evaluation](https://pubs.galatolo.me/galatolocerbero.pdf)
 - [Image-based screening of oral cancer via deep ensemble architecture](https://pubs.galatolo.me/galatolooral.pdf)
+- [Advanced Control of Humanoid Facial Robotics: A Deep Learning Approach to Inverse Kinematics](https://pubs.galatolo.me/manduzioface.pdf)
 - [Detection and Classification of Hysteroscopic Images Using Deep Learning](https://pubs.galatolo.me/galatolohystero.pdf)
 ## 2023
 - [Blockchain-based Shared Additive Manufacturing](https://pubs.galatolo.me/galatoloblockchain.pdf)
