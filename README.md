@@ -1,4 +1,6 @@
 # Publications
+## 2025
+- [Explainable screening of oral cancer via deep learning and case-based reasoning](https://pubs.galatolo.me/ciminoexplainableoral.pdf)
 ## 2024
 - [Optimizing sparse topologies via competitive joint unstructured neural networks](https://pubs.galatolo.me/galatolocjunn.pdf)
 - [Towards explainable oral cancer recognition: Screening on imperfect images via Informed Deep Learning and Case-Based Reasoning](https://pubs.galatolo.me/parolaoral.pdf)
